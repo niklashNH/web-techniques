@@ -6,6 +6,7 @@ body {
 .parallax {
     background: no-repeat fixed center;
     background-size: cover;
+    position: relative;
 }
 
 .intro {
@@ -26,6 +27,22 @@ body {
 .image-3 {
     background-image: url("http://publicdomainarchive.com/wp-content/uploads/2017/01/public-domain-images-free-stock-photos008-1080x675.jpg");
     min-height: 1200px;
+}
+
+.spacer {
+    background-color: #333;
+    height: 200px;
+}
+
+.teaser-text {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 50%;
+    margin-top: -60px;
+    color: #fff;
+    font-size: 120px;
+    text-align: center;
 }
 
 /* Turn off parallax scrolling for Tablets and smartphones

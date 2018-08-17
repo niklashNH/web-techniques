@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    background: no-repeat fixed center;
+    background-size: cover;
+}
+
+.intro {
+    background-image: url("http://publicdomainarchive.com/wp-content/uploads/2015/03/public-domain-images-free-stock-photos-apple-iphone-iphone-6.jpg");
+    min-height: 100vh;
+}
+
+.image-1 {
+    background-image: url("http://publicdomainarchive.com/wp-content/uploads/2014/04/public-domain-images-free-stock-photos-down-town-chicago-blue-sky-6-1000x666.jpg");
+    min-height: 400px;
+}
+
+.image-2 {
+    background-image: url("http://publicdomainarchive.com/wp-content/uploads/2014/06/public-domain-images-free-stock-photos-high-quality-resolution-downloads-unsplash0074-1000x664.jpg");
+    min-height: 800px;
+}
+
+.image-3 {
+    background-image: url("http://publicdomainarchive.com/wp-content/uploads/2017/01/public-domain-images-free-stock-photos008-1080x675.jpg");
+    min-height: 1200px;
+}
+
+/* Turn off parallax scrolling for Tablets and smartphones
+since there may be problems
+
+@media only screen and (max-width: 1200px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+ */
